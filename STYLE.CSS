@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 24px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(248, 1, 186); 
+}
+body{
+    background-color: rgb(255, 186, 238) ;
+    font-family: arial, helvetica,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+. Textlabel{
+    margin:10px;
+    margin-bottom:5px;
+    Font-weight: bold;
+    color:rgb(197, 75, 167)
+}
+.campotexto{
+    padding:12px;
+    border:1px solid rgb(133, 1, 115);
+    border-radius: 20px;
+    outline: none;
+    transition:0.3s;
+}
+.campotext:focus{
+    border-color:rgb(139, 20, 114);
+    box-shadow: 0 5px 5px rgba(238, 136, 224, 0.733):
+}
+.form{
+    background-color: #8d4483;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #b8eb;
+    display: flex;
+    flex-direction: column;
+}
+#tituloform{
+    text-align:center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:rgba(242, 174, 245, 0.836);
+}
+#Bnenviar{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(216, 143, 235);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+#Bnenviar:hover{
+    background-color: rgba(255, 0, 255, 0.836);
+}
